@@ -1,0 +1,96 @@
+
+NECESSARY STEPS FOR TURNING YOUR MAC INTO A SCIENTIFIC COMPUTING PLATFORM  Last updated January, 2010
+
+Instructions for updating a Mac from Leopard to Snow Leopard can be found at http://artsci.wustl.edu/~jgill/snowleopard.txt
+
+Prerequisites, install these first
+
+[ ] Apple Developer Connection Xcode (necessary collection of software tools.  Also available on your installation DVD.)
+    http://developer.apple.com/tools/download/ 
+
+[ ] X11 for Mac Os X (also available on your installation DVD)
+    http://www.apple.com/downloads/macosx/apple/macosx_updates/x11update2006113.html
+
+[ ] Fink Unix utilities
+    http://www.finkproject.org/
+    Fink Commander 
+    http://finkcommander.sourceforge.net/                                  
+
+Then proceed with everything else as needed.
+
+[ ] MacTeX
+    http://tug.org/mactex/
+    (Very large, but comprehensive.)
+
+[ ] TeXshop for LaTeX 
+    http://www.uoregon.edu/~koch/texshop/obtaining.html
+
+[ ] Other Editors:
+    VI: http://sourceforge.net/project/showfiles.php?group_id=213254
+    Aquamacs: http://aquamacs.org/
+
+[ ] R
+    http://cran.wustl.edu/sources.html
+    (for binaries http://cran.wustl.edu/)
+    (or for development versions and tools to allow building of packages http://r.research.att.com/)
+
+[ ] R standalone math libraries
+    "The library is not built automatically when R is installed, but can be built 
+    in the directory src/nmath/standalone in the R sources: see the file README there."
+    in /Users/jgill/Documents/R-2.4.1/src/nmath/standalone, type "make install"
+ 
+[ ] JAGS-1.0.4
+    http://calvin.iarc.fr/~martyn/software/jags/
+    
+[ ] VLC
+    http://www.videolan.org/vlc/
+
+[ ] freestanding TCL/TK.  Needed by Rcmdr and other programs   
+    http://cran.wustl.edu/bin/macosx/tools/
+
+[ ] Open Office
+    http://download.openoffice.org/
+
+[ ] Adobe Reader
+    http://www.adobe.com/products/acrobat/readstep2.html
+
+[ ] Browsers
+    Omniweb: http://www.omnigroup.com/applications/omniweb/
+    Firefox: http://www.mozilla.com/en-US/firefox/
+    Camino: http://www.caminobrowser.org/
+    Google Chrome: http://www.google.com/chrome
+
+[ ] Firefox Extensions
+    LibX Washington University: http://library.wustl.edu/research/toolbar/
+    Zotero:  http://www.zotero.org/
+
+[ ] PDFtoKeynote
+    http://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html
+
+[ ] Text to html
+    http://sourceforge.net/project/showfiles.php?group_id=36483&package_id=28791&release_id=261701
+
+[ ] File Transfer Clients
+    CyberDuck, http://cyberduck.ch/
+    Filezilla, http://filezilla-project.org/
+
+[ ] To Add Nice Equations and Tables to Keynote Presentations
+    http://www.apple.com/downloads/macosx/math_science/latexit.html
+
+[ ] Miscellaneous General Advice Sites:
+    http://www.apple.com/downloads/macosx/math_science/
+    http://hitoshi.berkeley.edu/macosx/
+    http://www.macresearch.org/
+
+[ ] For Nice Mac Fonts in LaTeX (XeTeX)
+    http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex
+    (install with fink install xetex)
+
+[ ] Some Additional Tools:
+    BibDesk, http://bibdesk.sourceforge.net/                                                
+    Desktop Manager, http://desktopmanager.berlios.de/
+    Gimp, http://www.gimp.org/
+    Quicksilver, http://en.wikipedia.org/wiki/Quicksilver_(software)                                                                                     
+    Combine PDFs, http://www.monkeybreadsoftware.de/Freeware/CombinePDFs.shtml
+    Poisoned, http://gottsilla.net/about.php
+    Kompozer, http://kompozer.net/
