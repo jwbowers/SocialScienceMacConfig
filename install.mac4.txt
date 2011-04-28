@@ -27,7 +27,10 @@ Then proceed with everything else as needed.
 
 [ ] Other Editors:
     VI: http://sourceforge.net/project/showfiles.php?group_id=213254
+        see especially http://tammersaleh.com/posts/the-modern-vim-config-with-pathogen
     Aquamacs: http://aquamacs.org/
+    GNU Emacs: Less Mac-specific modificiations than Aquamacs, but easier to customize across platforms 
+ 	http://emacsformacosx.com/
 
 [ ] R
     http://cran.wustl.edu/sources.html
@@ -39,7 +42,7 @@ Then proceed with everything else as needed.
     in the directory src/nmath/standalone in the R sources: see the file README there."
     in /Users/jgill/Documents/R-2.4.1/src/nmath/standalone, type "make install"
  
-[ ] JAGS-1.0.4
+[ ] JAGS
     http://calvin.iarc.fr/~martyn/software/jags/
     
 [ ] VLC
