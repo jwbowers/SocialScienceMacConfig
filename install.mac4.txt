@@ -1,4 +1,3 @@
-
 NECESSARY STEPS FOR TURNING YOUR MAC INTO A SCIENTIFIC COMPUTING PLATFORM  Last updated January, 2010
 
 Instructions for updating a Mac from Leopard to Snow Leopard can be found at http://artsci.wustl.edu/~jgill/snowleopard.txt
@@ -11,10 +10,15 @@ Prerequisites, install these first
 [ ] X11 for Mac Os X (also available on your installation DVD)
     http://www.apple.com/downloads/macosx/apple/macosx_updates/x11update2006113.html
 
-[ ] Fink Unix utilities
-    http://www.finkproject.org/
-    Fink Commander 
-    http://finkcommander.sourceforge.net/                                  
+[ ] A System for installing and managing unix tools like
+
+    - Homebrew 
+      http://mxcl.github.com/homebrew/
+
+    - Fink Unix utilities
+      http://www.finkproject.org/
+      Fink Commander 
+      http://finkcommander.sourceforge.net/                                  
 
 Then proceed with everything else as needed.
 
@@ -22,12 +26,14 @@ Then proceed with everything else as needed.
     http://tug.org/mactex/
     (Very large, but comprehensive.)
 
-[ ] TeXshop for LaTeX 
-    http://www.uoregon.edu/~koch/texshop/obtaining.html
+[ ] A Nice LaTeX Editor/Viewer
+    - TeXshop for LaTeX 
+      http://www.uoregon.edu/~koch/texshop/obtaining.html
 
-[ ] Other Editors:
-    VI: http://sourceforge.net/project/showfiles.php?group_id=213254
-        see especially http://tammersaleh.com/posts/the-modern-vim-config-with-pathogen
+[ ] More general editors:
+    VI: http://code.google.com/p/macvim/ 
+        Pathogen is a great way to manage plugins for vim like Vim-R-Plugin or Vim-LaTeX
+        (https://github.com/tpope/vim-pathogen)
     Aquamacs: http://aquamacs.org/
     GNU Emacs: Less Mac-specific modificiations than Aquamacs, but easier to customize across platforms 
  	http://emacsformacosx.com/
@@ -42,6 +48,11 @@ Then proceed with everything else as needed.
     in the directory src/nmath/standalone in the R sources: see the file README there."
     in /Users/jgill/Documents/R-2.4.1/src/nmath/standalone, type "make install"
  
+[ ] A Nice R Graphical User Interface 
+
+    - RStudio 
+      http://rstudio.org
+
 [ ] JAGS
     http://calvin.iarc.fr/~martyn/software/jags/
     
