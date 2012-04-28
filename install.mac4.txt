@@ -1,4 +1,4 @@
-NECESSARY STEPS FOR TURNING YOUR MAC INTO A SCIENTIFIC COMPUTING PLATFORM  Last updated January, 2010
+NECESSARY STEPS FOR TURNING YOUR MAC INTO A SCIENTIFIC COMPUTING PLATFORM  Last updated April 2012
 
 Instructions for updating a Mac from Leopard to Snow Leopard can be found at http://artsci.wustl.edu/~jgill/snowleopard.txt
 
