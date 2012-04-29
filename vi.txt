@@ -1,0 +1,14 @@
+Getting the most from vi/vim.
+
+1. Add vi key bindings to any readline using application (bash, interactive R,
+etc.) by adding `set -o vi` to your ~/.profile file.
+
+2. If you have to (or even want to) use Emacs, turn on viper mode to get vi
+key bindings (M-x viper-mode).
+
+3. If you prefer MacVIM, you can make it your default editor in terminal
+applications by adding the following to your .profile:
+
+    export EDITOR='mvim -f -c "au VimLeave <buffer> maca hide:"'
+
+Make sure to install the MacVIM command line utility in File->Preferences.
